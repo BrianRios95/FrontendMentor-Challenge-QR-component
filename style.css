@@ -76,18 +76,10 @@ body {
 }
 
 .attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
-.attribution {
   color: var(--darkBlue);
   font-family: "Outfit", sans-serif;
   font-size: 1.2rem;
-  /* margin-top: 5rem; */
+  text-align: center;
 }
 
 .attribution a {
@@ -95,4 +87,15 @@ body {
   font-size: 1.2rem;
   font-weight: var(--sevenH);
   text-decoration: none;
+}
+
+@media only screen and (max-width: 37.5rem) {
+  html {
+    font-size: 10px;
+  }
+
+  .container {
+    padding: 6.4rem 0;
+    height: auto;
+  }
 }
